@@ -1,0 +1,35 @@
+body {
+    color: purple;
+}
+
+.images {
+    height: 250px;
+    transition: ease-in 0.1s;
+
+}
+
+.images:hover {
+    cursor: pointer;
+    transition: ease-out 0.1s;
+    transform: scale(1.2);
+}
+
+#parentDiv {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.ingredients {
+    line-height: 2em;
+    text-align: left;
+    word-wrap: normal;
+}
+
+
+#recipes-titles{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+    gap: 250px;
+}
